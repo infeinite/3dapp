@@ -1,0 +1,128 @@
+/* Banner 样式 */
+header img {
+    max-height: 100px; 
+    width: auto;
+}
+
+
+.banner {
+    background-image: url('/assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 产品卡片样式 */
+.brand-card {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.brand-card:hover {
+    transform: scale(1.05);
+}
+
+.brand-card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+/* 自定义样式 */
+.about-us, .contact-us {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+    color: #6d74ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
+
+
+/* 其他调整 */
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Center the product cards */
+.brands-section .row {
+    justify-content: center;
+}
+
+/* Center text in About Us and Contact Us */
+.about-us, .contact-us {
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 800px;  /* 限制内容宽度 */
+}
+
+/* Flexbox for header to align logo and navbar */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-height: 50px;
+}
+
+/* Center the content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Model viewer container */
+.x3d-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #000;
+    border: 1px solid #ccc;
+}
+
+/* Button styling */
+.btn-group .btn {
+    margin: 0 5px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
